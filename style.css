@@ -82,11 +82,12 @@ nav{
 .banner{
    display:grid;
    grid-template-columns: repeat(2,1fr);
+   align-items: center;
     
 }
 .pro-details{
     flex:1;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 .pro-details h1{
     font-size: 37px;
