@@ -120,3 +120,19 @@ nav{
 .pro-img .img1 img,.img2 img{
     width:100%;
 }
+
+/* sponser section start  */
+.big-logo{
+    padding: 80px 100px;
+}
+.compony-logo{
+    padding:32px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    border-top: 2px solid #f0f0f0e1;
+    border-bottom: 2px solid #f0f0f0e1;
+}
+
+
+
