@@ -297,10 +297,49 @@ nav{
     resize: none;
 }
 
+/* footer section start  */
 
+footer{
+    display: grid;
+    place-items: center;
+    background: #0A0826;
+    padding: 50px 0;
+}
+.footer-div{
+    text-align: center;
+}
+.footer-div h1{
+    font-size: 24px;
+    color: #fff;
+    line-height: 36px;
+    font-weight: bold;
+}
+.footer-div p{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #D9DBE1;
+}
+.footer-icon{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 17px;
+}
 
-
-
-
-
-
+.f-icon{
+    margin: 0 16px;
+    transition: 0.3s ease;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+.f-icon:hover{
+    background-color: #E02C6D;
+    color: #fff;
+    transform: scale(1.2);
+}
