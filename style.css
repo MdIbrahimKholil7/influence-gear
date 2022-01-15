@@ -398,6 +398,9 @@ footer{
     .logo h1 {
         font-size: 19px;
     }
+    body{
+        overflow-x: hidden;
+    }
 }
 
 
@@ -412,7 +415,9 @@ footer{
         padding: 20px 60px;
         margin: 0 auto;
     }
-
+    body{
+        overflow-x: hidden;
+    }
     .logo h1 {
         font-size: 21px;
         font-weight: 700;
@@ -431,7 +436,9 @@ footer{
 /* i pad air screen size  */
 
 @media screen and (max-width:820px){
-    
+    body{
+        overflow-x: hidden;
+    }
     /* header section start  */
     .logo h1 {
         font-size: 19px;
@@ -506,21 +513,29 @@ footer{
         height: 157px;
         resize: none;
     }
+    body{
+        overflow-x: hidden;
+    }
 }
 
 /* mobile screen size  */
 
 @media screen and (max-width:500px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        display:none;
+    }
     .bar{
         display: block;
     }
-    .navbar{
-        display: none;
-    }
+    
     .banner{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content:center;
         align-items: center;
     }
     .bar1{
@@ -589,7 +604,9 @@ footer{
 
 @media screen and (max-width:396px){
     /* header section start  */
-
+    body{
+        overflow-x: hidden;
+    }
     .bar{
         display:block;
     }
@@ -662,7 +679,9 @@ footer{
 
 
 @media screen and (max-width:360px){
-    
+    body{
+        overflow-x: hidden;
+    }
 /* header section start  */
 .bar{
     display:block;
@@ -752,48 +771,7 @@ footer{
 
 
 
-/* mobile responsive device  */
 
-/* @media  screen and (max-width:540px) {
-    
-/* header section start  */
-
-/* body{
-    overflow-x: hidden;
-}
-
-.banner{
-     display:flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column-reverse;
-     
-}
-
-
-.hero{
-    overflow: hidden;
-}
-
-
-nav{
-    display: flex;
-    justify-content: center;
-}
-.logo h1 {
-    font-size: 16px;
-    text-align: center;
-}
-
-
-.navbar {
-    
-    display: none;
-}
-
-
-} */
- 
 
  
 
