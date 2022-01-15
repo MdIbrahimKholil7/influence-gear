@@ -29,6 +29,10 @@
     padding: 30px 60px;
 }
 
+#check{
+    visibility: hidden;
+}
+
 
 /* header section start here  */
 
@@ -500,6 +504,151 @@ footer{
         resize: none;
     }
 }
+
+/* mobile screen size  */
+
+@media screen and (max-width:500px){
+    .navbar{
+        display: none;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .bar1{
+       width: 24px;
+       height: 24px;
+       margin-left: -32px;
+    }
+    .pro-details{
+        text-align: center;
+        padding: 28px;
+    }
+    .multiple-logo{
+        display: inline;
+        text-align: center;
+    }
+    .multiple-logo img {
+        width: 27px;
+    }
+    .big-logo {
+        padding: 35px 100px 30px 100px;
+    }
+    .compony-logo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    .collection-card {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        justify-content: center;
+        gap: 25px;
+      }
+      .see-btn {
+        /* display: block; */
+        margin-left:58%;
+        /* margin: 0 auto; */
+    }
+
+/* contact section start  */
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-details{
+    text-align: center;
+}
+.message{
+    margin-bottom:23px;
+    text-align: center;
+}
+.message h1{
+    margin: 10px 0;
+}
+
+}
+
+/* mobile screen size  */
+
+@media screen and (min-width:365px){
+    /* header section start  */
+    .bar1 {
+        width: 24px;
+        height: 24px;
+        margin-left: -17px;
+    }
+    .pro-img .img1, .img2 {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .pro-img {
+        margin-top: -36px;
+        text-align: center;
+    }
+    .pro-img{
+        text-align: center;
+    }
+
+
+
+
+    .pro-img .img1 img, .img2 img {
+        width: 85%;
+    }
+
+    .pro-details{
+        margin-top: -10px;
+    }
+    .pro-details h1 {
+        font-size: 19px;
+    }
+    .collection{
+        padding: 0 40px;
+    }
+    .primary-btn{
+         font-size: 13px;
+        padding: 8px 16px;
+     }
+
+      .see-btn{
+        font-size: 13px;
+        margin-left: 193px;
+            }
+
+    .about-details h1 {
+         font-size: 34px;
+         color: #E02C6D;
+         margin-top: -15px;
+        margin-bottom: 16px;
+     }
+     .contact-btn{
+        font-size: 16px;
+        padding: 8px 13px;
+     }
+
+     .footer-div h1{
+         font-size: 22px;
+     }
+
+}
+
+
+
+
 
 
 
