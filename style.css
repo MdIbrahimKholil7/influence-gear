@@ -489,9 +489,17 @@ footer{
 }
 
 
+/* mini tablet screen size  */
 
-
-
+@media screen and (max-width:768px){
+    .pro-details h1 {
+        font-size: 23px;
+    }
+    .message textarea {
+        height: 157px;
+        resize: none;
+    }
+}
 
 
 
