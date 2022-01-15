@@ -134,6 +134,78 @@ nav{
     border-top: 2px solid #f0f0f0e1;
     border-bottom: 2px solid #f0f0f0e1;
 }
+/* collection section start  */
+
+.collection{
+    overflow: hidden;
+    margin: 0px 80px;
+    padding: 0 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.title{
+    text-align:center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 28px;
+    color: var(--common-color);
+}
+.collection-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.card{
+    height: 476px;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.card img{
+    width: 240px;
+}
+
+.card h2{
+    font-size: 28px;
+    padding: 16px 0;
+}
+.card h3{
+    font-size: 24px;
+}
+.card .fa-star,.fa-star-half-o{
+    color: #eb8808ea;
+    margin-bottom: 10px;
+}
+.card .rating{
+    color:#5E6366;
+    font-size:14px;
+    margin-left: 8px;
+}
+.card .icon-box h4,h5{
+    font-size:14px;
+    color: #787885;
+
+}
+.see-btn{
+    color:#E02C6D;
+    margin-top: 30px;
+    margin-left:88%;
+    display: block;
+    text-decoration: none;
+    font-size:16px;
+    line-height: 24px;
+}
+
+
+
+
+
+
 
 
 
